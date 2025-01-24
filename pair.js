@@ -53,26 +53,26 @@ router.get('/', async (req, res) => {
                 let data = fs.readFileSync(__dirname + `/temp/${id}/creds.json`);
                 await delay(800);
                let b64data = Buffer.from(data).toString('base64');
-               let session = await Pair_Code_By_Malvin_King.sendMessage(Pair_Code_By_Malvin_King.user.id, { text: '' + b64data });
+               let session = await Pair_Code_By_RUKSHAN_king.sendMessage(Pair_Code_By_RUKSHAN_King.user.id, { text: '' + b64data });
 
                let MALVIN_KING_TEXT = `
 ┏━━━━━━━━━━━━━━
-┃ᴍᴀʟᴠɪɴ-ᴍᴅ SESSION IS 
-┃SUCCESSFULLY
+┃RED-SAMURAI-XMD SESSION IS💭🥷
+┃SUCCESSFULLY🇱🇰
 ┃CONNECTED ✅🔥
 ┗━━━━━━━━━━━━━━━
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❶ || Creator = 𖥘⚡ ᴍᴀʟᴠɪɴ-ᴋɪɴɢ ⚡𖥘
+❶ || Creator = 𖥘🇯🇵  RUKSHAN JAPANESE 🇯🇵𖥘
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❷ || https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z
+❷ || MY WHATSAPP CHANNEL = https://whatsapp.com/channel/0029VawQLgP30LKW5sLcS01B/216
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❸ || Owner = https://wa.me/263780166288
+❸ || Owner = https://wa.me/94759371545
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❺ || Bot Repo = https://github.com/kingmalvn/LORD-MD 
+❺ || Bot Repo = https://github.com/RED-SAMURAI-RUKA/RED-SAMURAI-V1/tree/main 
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-❻ || YouTube = https://www.youtube.com/@malvintech2 
+❻ || YouTube = tama patan gatte ne sudda🥲 
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-©2024-2099 ᴍᴀʟᴠɪɴ-ᴋɪɴɢ_`
+©2024-2099 𝚁𝙴𝙳_𝚂𝙰𝙼𝚄𝚁𝙰𝙸_𝚁𝚄𝙺𝙰_🥷`
  await Pair_Code_By_Malvin_King.sendMessage(Pair_Code_By_Malvin_King.user.id,{text:MALVIN_KING_TEXT},{quoted:session})
  
 
